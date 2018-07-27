@@ -4,7 +4,31 @@
         <title>Background Images :: CSS Navigations</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<style type="text/css">
-			
+			body {
+				background-image: url('./img/1-separate/1-link.png');
+			}
+			nav.bg-images a{
+				background-image: url('./img/1-separate/1-link.png');
+				background-repeat: no-repeat;
+
+				width: 280px;
+				height: 50px;
+
+				display: block;
+				margin-bottom: 50px;
+
+				text-align: right;
+				font-size: 20px;
+				color: white;
+				text-decoration: underline;
+
+				line-height: 50px;
+
+				padding-right: 20px;
+			}
+			nav.bg-images a:hover { background-image: url('./img/1-separate/2-hover.png');}
+			nav.bg-images a:active { background-image: url('./img/1-separate/3-active.png');}
+			nav.bg-images a.theChosenOne { background-image: url('./img/1-separate/4-chosen.png');}
 		</style>
     </head>
     <body>
